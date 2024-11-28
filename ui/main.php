@@ -4,8 +4,10 @@
         <meta charset="UTF-8">
     </head>
     <body>
-        <div>
+        <div class="theme-div">
             <main>
+                <div>
+                </div>
             </main>
         </div>
     </body>
