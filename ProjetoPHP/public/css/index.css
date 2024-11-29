@@ -1,0 +1,280 @@
+:root {
+    --color-1: #27374D;
+    --color-2: #526D82;
+    --color-3: #9DB2BF;
+    --color-4: #DDE6ED;
+}
+
+.main-div {
+    background-color: var(--color-2);
+    border: 1px solid var(--color-2);
+    height: 15vh;
+    padding: 1em;
+}
+
+.main-div > header {
+    border: 1px solid var(--color-2);
+    display: flex;
+    padding: 0.2em;
+}
+
+.main-div > header > div {
+    border: 1px solid var(--color-2);
+    display: flex;
+    gap: 1em;
+    padding: 0.2em;
+    width: 50%;
+}
+
+.main-div > header > div > .logo {
+    background-color: var(--color-1);
+    background-image: url(../../src/images/phone-name.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 0.3em;
+    padding: 2em;
+    width: 34.5%;
+}
+
+.main-div > header > div > .main-nav {
+    align-items: center;
+    border: 1px solid var(--color-2);
+    display: flex;
+    padding: 0.5em;
+    width: 100%;
+}
+
+.main-div > header > div > .main-nav > nav {
+    background-color: var(--color-4);
+    border: 1px solid var(--color-2);
+    border-radius: 0.5em;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.main-div > header > div > .main-nav > nav > a {
+    color: var(--color-1);
+    font-family: calibri;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.main-div > header > div > .main-nav > nav > a:hover {
+    color: var(--color-2);
+}
+
+.main-div > header > div > .main-nav > nav > a:active {
+    color: var(--color-3);
+}
+
+.paginas-div {
+    background-color: var(--color-3);
+    border: 1px solid var(--color-3);
+    display: inline-block;
+    height: calc(75vh + 1vh);
+    padding: 1em;
+    vertical-align: top;
+    width: 79%;
+}
+
+.paginas-main {
+    border: 1px solid var(--color-3);
+    height: 100%;
+    padding: 0.5em;
+}
+
+.theme-div {
+    border: 1px solid var(--color-3);
+    border-bottom: none;
+    border-right: none;
+    display: inline-block;
+    height: calc(75vh + 1vh);
+    margin-left: -0.25em;
+    width: 20.95%;
+}
+
+.theme-div > main {
+    align-items: start;
+    background-color: var(--color-3);
+    background-image: url(../../src/themes/alaska-2.jpg);
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 1px solid var(--color-3);
+    border-bottom: none;
+    border-right: none;
+    display: flex;
+    height: 100%;
+    justify-content: end;
+    padding: 0.5em;
+}
+
+.theme-div > main > div {
+    background-color: var(--color-1);
+    border: 1px solid var(--color-1);
+    border-radius: 0.5em;
+    opacity: 50%;
+    padding: 0.5em;
+    width: 100%;
+}
+
+.footer-div {
+    background-color: var(--color-1);
+    border: 1px solid var(--color-1);
+    height: calc(10vh - 1vh);
+    padding: 0.5em;
+}
+
+.footer-div > footer {
+    border: 1px solid var(--color-1);
+    display: flex;
+    justify-content: center;
+    padding: 0.5em;
+}
+
+.copy {
+    color: var(--color-4);
+    font-family: calibri;
+}
+
+.paginas-main > section {
+    background-color: var(--color-4);
+    border: 1px solid var(--color-4);
+    border-radius: 0.5em;
+    height: 100%;
+    padding: 0.5em;
+}
+
+.paginas-main > section > h3 {
+    background-color: var(--color-1);
+    border-radius: 0.5em;
+    color: whitesmoke;
+    font-family: calibri;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    width: 20%;
+}
+
+.paginas-main > .home-section > div {
+    background-color: whitesmoke;
+    border: 1px solid whitesmoke;
+    border-radius: 0.5em;
+    display: flex;
+    flex-direction: column;
+    height: 50%;
+    justify-content: space-evenly;
+    padding: 0.5em;
+}
+
+.paginas-main > .home-section > div > a {
+    background-color: var(--color-2);
+    border-radius: 0.5em;
+    color: var(--color-4);
+    font-family: calibri;
+    text-align: center;
+    text-decoration: none;
+    transition: 0.5s;
+    width: 30%;
+}
+
+.paginas-main > .home-section > div > a:hover {
+    background-color: var(--color-3);
+}
+
+.paginas-main > .home-section > div > a:active {
+    background-color: var(--color-1);
+}
+
+.paginas-main > .contatos-section > div > form > .escrever {
+    border: none;
+    border-radius: 0.3em;
+    outline: none;
+    width: 30%;
+}
+
+.paginas-main > .contatos-section > div > form > .pesquisar {
+    background-color: var(--color-2);
+    border: none;
+    border-radius: 0.3em;
+    color: var(--color-4);
+    font-family: calibri;
+    transition: 0.5s;
+    width: 10%;
+}
+
+.paginas-main > .contatos-section > div > form > .pesquisar:hover {
+    background-color: var(--color-3);
+}
+
+.paginas-main > .contatos-section > div > form > .pesquisar:active {
+    background-color: var(--color-1);
+}
+
+.paginas-main > .contatos-section > .contatos-form-div {
+    background-color: whitesmoke;
+    border: 1px solid whitesmoke;
+    border-radius: 0.5em;
+    height: calc(100% - 7.5%);
+    padding: 0.5em;
+}
+
+.paginas-main > .contatos-section > .contatos-form-div > form {
+    border: 1px solid whitesmoke;
+    height: 100%;
+    padding: 0.5em;
+    width: 75%;
+}
+
+.paginas-main > .contatos-section > .contatos-form-div > form > div {
+    border: 1px solid var(--color-4);
+    display: flex;
+    justify-content: space-between;
+    padding: 0.4em;
+}
+
+.paginas-main > .contatos-section > .contatos-form-div > form > .form-div > input {
+    border: none;
+    border-radius: 0.3em;
+    outline: none;
+    padding: 0.2em;
+    width: 75%;
+}
+
+.paginas-main > .contatos-section > .other-div {
+    background-color: whitesmoke;
+    border: 1px solid whitesmoke;
+    border-radius: 0.5em;
+    padding: 0.5em;
+}
+
+.paginas-main > .contatos-section > .other-div > span {
+    color: var(--color-1);
+    font-family: calibri;
+}
+
+.paginas-main > .tarefas-section > div {
+    background-color: whitesmoke;
+    border: 1px solid whitesmoke;
+    border-radius: 0.5em;
+    padding: 0.5em;
+}
+
+.paginas-main > .tarefas-section > div > span {
+    color: var(--color-1);
+    font-family: calibri;
+}
+
+.paginas-main > .eventos-section > div {
+    background-color: whitesmoke;
+    border: 1px solid whitesmoke;
+    border-radius: 0.5em;
+    padding: 0.5em;
+}
+
+.paginas-main > .eventos-section > div > span {
+    color: var(--color-1);
+    font-family: calibri;
+}
